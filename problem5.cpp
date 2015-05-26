@@ -46,7 +46,7 @@ int main()
 // Function Definitions
 bool divisibleThru20( int num )
 {
-	for (int divisor = 1; divisor <= 20; divisor++ )
+	for ( int divisor = 1; divisor <= 20; divisor++ )
 	{
 		if ( num % divisor )
 		{

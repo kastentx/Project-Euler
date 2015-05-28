@@ -30,10 +30,6 @@ int main()
 		if( divisibleThru20( num ) )
 		{
 			evenlyDivisible = true;
-		}
-		
-		if ( evenlyDivisible )
-		{
 			break;
 		}
 	}

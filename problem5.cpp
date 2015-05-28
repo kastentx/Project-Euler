@@ -22,16 +22,11 @@ bool divisibleThru20( int num );
 // Main Function
 int main()
 {
-	bool evenlyDivisible = false;
-	int num;
+	int num = 1;
 	
-	for (num = 1; num < 1000000000; num++)
+	while (num < 1000000000 && !divisibleThru20( num ) )
 	{
-		if( divisibleThru20( num ) )
-		{
-			evenlyDivisible = true;
-			break;
-		}
+		num++;
 	}
 	
 	cout << num;

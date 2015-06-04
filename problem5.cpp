@@ -24,7 +24,7 @@ int main()
 {
 	int num = 1;
 	
-	while (num < 1000000000 && !divisibleThru20( num ) )
+	while ( num < 1000000000 && !divisibleThru20( num ) )
 	{
 		num++;
 	}

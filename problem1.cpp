@@ -20,9 +20,9 @@ int main()
 	const int MAX = 1000;
 	int total = 0;
 	
-	for (int i=0; i < MAX; i++)				// for all numbers less than 1000
+	for ( int i=0; i < MAX; i++ )				// for all numbers less than 1000
 	{
-		if (i % 3 == 0 || i % 5 == 0)		// if number is a multiple of 3 or 5
+		if ( i % 3 == 0 || i % 5 == 0 )		// if number is a multiple of 3 or 5
 		{
 			total += i;						// add it to running total
 		}

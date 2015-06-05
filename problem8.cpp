@@ -90,7 +90,9 @@ void findLargestProduct( string mySeries, unsigned long long& myProduct )
 		}
 		myProduct = ( myLargest > myProduct ? myLargest : myProduct );
 	}
-	else 																// otherwise
+	else 												
+	
+					// otherwise
 	{
 		for ( int num = 0; num < 13; num++ )							// take the next 13 digits
 		{
